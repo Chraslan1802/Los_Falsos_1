@@ -1945,3 +1945,51 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [11Aug2025 01:31:58.150] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [11Aug2025 01:35:41.107] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made pirelianoyt a server operator
 [11Aug2025 01:35:51.896] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pirelianoyt: Set own game mode to Creative Mode]
+[11Aug2025 01:36:39.390] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pirelianoyt: Set own game mode to Survival Mode]
+[11Aug2025 01:36:42.466] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pirelianoyt: Set own game mode to Creative Mode]
+[11Aug2025 01:36:43.034] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Chraslan1802> \gamemode 0
+[11Aug2025 01:36:54.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <pirelianoyt> ./gamemode creative
+[11Aug2025 01:36:58.105] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[11Aug2025 01:36:58.111] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[11Aug2025 01:37:04.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pirelianoyt: Made Chraslan1802 a server operator]
+[11Aug2025 01:39:09.305] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Chraslan1802 moved too quickly! -9.393460138086084,0.0,-4.886950549575829
+[11Aug2025 01:39:09.306] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: pirelianoyt moved too quickly! 8.814815926775552,5.250000208440525,-2.8109704026785316
+[11Aug2025 01:39:21.672] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-1077, y=60, z=-304} but found not block entity block Block{minecraft:water}[level=1] at location
+[11Aug2025 01:39:21.673] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:water}[level=1] but failed at location BlockPos{x=-1077, y=60, z=-304}
+[11Aug2025 01:39:21.673] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-1074, y=59, z=-303} but found not block entity block Block{minecraft:water}[level=8] at location
+[11Aug2025 01:39:21.674] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:water}[level=8] but failed at location BlockPos{x=-1074, y=59, z=-303}
+[11Aug2025 01:39:22.812] [Worker-Main-1/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id scpo:scp_966
+[11Aug2025 01:39:24.357] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id scpo:scp_106
+[11Aug2025 01:39:25.857] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id scpo:scp_106
+[11Aug2025 01:39:26.259] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id shy_guy:shy_guy
+[11Aug2025 01:39:27.273] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id scpo:scp_049
+[11Aug2025 01:39:27.415] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id scpo:scp_173
+[11Aug2025 01:39:31.089] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id scpo:scp_966
+[11Aug2025 01:41:36.913] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pirelianoyt: Set own game mode to Survival Mode]
+[11Aug2025 01:41:52.936] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-2286, y=58, z=-1854} but found not block entity block Block{minecraft:water}[level=1] at location
+[11Aug2025 01:41:52.937] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:water}[level=1] but failed at location BlockPos{x=-2286, y=58, z=-1854}
+[11Aug2025 01:41:54.978] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-2382, y=58, z=-1858} but found not block entity block Block{minecraft:water}[level=1] at location
+[11Aug2025 01:41:54.979] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:water}[level=1] but failed at location BlockPos{x=-2382, y=58, z=-1858}
+[11Aug2025 01:41:56.862] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pirelianoyt: Set own game mode to Creative Mode]
+[11Aug2025 01:41:58.119] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[11Aug2025 01:41:58.127] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[11Aug2025 01:42:00.349] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chraslan1802: Teleported Chraslan1802 to pirelianoyt]
+[11Aug2025 01:42:19.720] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chraslan1802: Set own game mode to Survival Mode]
+[11Aug2025 01:43:08.846] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chraslan1802: Set own game mode to Creative Mode]
+[11Aug2025 01:44:48.649] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pirelianoyt: Set the time to 1000]
+[11Aug2025 01:44:55.192] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chraslan1802: Set own game mode to Survival Mode]
+[11Aug2025 01:45:02.546] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pirelianoyt: Set own game mode to Survival Mode]
+[11Aug2025 01:45:19.789] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pirelianoyt: Gamerule keepInventory is now set to: true]
+[11Aug2025 01:45:32.801] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pirelianoyt was slain by Chraslan1802
+[11Aug2025 01:45:35.157] [Server thread/DEBUG] [tacz/SYNC_BASE_TIMESTAMP]: Update server base timestamp: 1754876735157
+[11Aug2025 01:45:42.931] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chraslan1802 was slain by Revived
+[11Aug2025 01:45:44.554] [Server thread/DEBUG] [tacz/SYNC_BASE_TIMESTAMP]: Update server base timestamp: 1754876744554
+[11Aug2025 01:46:58.095] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[11Aug2025 01:46:58.101] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[11Aug2025 01:48:16.586] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pirelianoyt has made the advancement [Stone Age]
+[11Aug2025 01:48:42.485] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chraslan1802 has made the advancement [Stone Age]
+[11Aug2025 01:51:58.095] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[11Aug2025 01:51:58.101] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[11Aug2025 01:53:14.832] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pirelianoyt has made the advancement [Monster Hunter]
+[11Aug2025 01:56:58.095] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[11Aug2025 01:56:58.101] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
