@@ -1993,3 +1993,8 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [11Aug2025 01:53:14.832] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pirelianoyt has made the advancement [Monster Hunter]
 [11Aug2025 01:56:58.095] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [11Aug2025 01:56:58.101] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[11Aug2025 02:01:58.105] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[11Aug2025 02:01:58.111] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[11Aug2025 02:04:17.041] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pirelianoyt has made the advancement [Getting an Upgrade]
+[11Aug2025 02:06:58.088] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[11Aug2025 02:06:58.093] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
