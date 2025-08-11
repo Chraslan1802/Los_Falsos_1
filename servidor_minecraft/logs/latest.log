@@ -391,3 +391,33 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [11Aug2025 01:48:42.485] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chraslan1802 has made the advancement [Stone Age]
 [11Aug2025 01:53:14.832] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pirelianoyt has made the advancement [Monster Hunter]
 [11Aug2025 02:04:17.041] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pirelianoyt has made the advancement [Getting an Upgrade]
+[11Aug2025 02:18:16.582] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chraslan1802: Teleported Chraslan1802 to pirelianoyt]
+[11Aug2025 02:18:44.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pirelianoyt: Teleported Chraslan1802 to pirelianoyt]
+[11Aug2025 02:18:47.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pirelianoyt: Teleported Chraslan1802 to pirelianoyt]
+[11Aug2025 02:22:39.145] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chraslan1802: Teleported Chraslan1802 to pirelianoyt]
+[11Aug2025 02:22:46.533] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chraslan1802 was slain by pirelianoyt
+[11Aug2025 02:30:49.855] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chraslan1802: Set own game mode to Creative Mode]
+[11Aug2025 02:31:25.486] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chraslan1802: Set own game mode to Survival Mode]
+[11Aug2025 02:34:35.604] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chraslan1802 has made the advancement [Sweet Dreams]
+[11Aug2025 02:34:44.819] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pirelianoyt has made the advancement [Sweet Dreams]
+[11Aug2025 02:37:21.316] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=601, y=87, z=-230} BlockPos{x=602, y=86, z=-231}
+[11Aug2025 02:38:20.951] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pirelianoyt: Teleported Chraslan1802 to pirelianoyt]
+[11Aug2025 02:44:51.534] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pirelianoyt: Set the time to 1000]
+[11Aug2025 02:44:58.088] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pirelianoyt: Set the weather to clear]
+[11Aug2025 02:47:10.934] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Chraslan1802 lost connection: Disconnected
+[11Aug2025 02:47:10.934] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chraslan1802 left the game
+[11Aug2025 02:47:11.884] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: pirelianoyt lost connection: Disconnected
+[11Aug2025 02:47:11.885] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pirelianoyt left the game
+[11Aug2025 02:47:28.577] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[11Aug2025 02:47:28.626] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[11Aug2025 02:47:28.627] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[11Aug2025 02:47:28.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[11Aug2025 02:47:28.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[11Aug2025 02:47:29.731] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[11Aug2025 02:47:29.733] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/lostcities:lostcity
+[11Aug2025 02:47:29.734] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[11Aug2025 02:47:29.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[11Aug2025 02:47:29.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11Aug2025 02:47:29.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (lostcity): All chunks are saved
+[11Aug2025 02:47:29.821] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11Aug2025 02:47:29.821] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
