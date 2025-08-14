@@ -1,74 +1,609 @@
-[14Aug2025 00:07:25.349] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[14Aug2025 00:07:25.352] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.16 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
-[14Aug2025 00:07:25.799] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[14Aug2025 00:07:25.809] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.onLoad
-[14Aug2025 00:07:25.811] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFine ZIP file URL: union:/workspaces/Los_Falsos_1/servidor_minecraft/mods/OptiFine_1.20.1_HD_U_I6.jar%23135!/
-[14Aug2025 00:07:25.818] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFine ZIP file: /workspaces/Los_Falsos_1/servidor_minecraft/mods/OptiFine_1.20.1_HD_U_I6.jar
-[14Aug2025 00:07:25.820] [main/INFO] [optifine.OptiFineTransformer/]: Target.PRE_CLASS is available
-[14Aug2025 00:07:25.864] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Los_Falsos_1/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[14Aug2025 00:07:25.872] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.initialize
-[14Aug2025 00:07:26.144] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Los_Falsos_1/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[14Aug2025 00:07:26.145] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Los_Falsos_1/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[14Aug2025 00:07:26.147] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Los_Falsos_1/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[14Aug2025 00:07:26.148] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Los_Falsos_1/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[14Aug2025 00:07:26.472] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 7 dependencies adding them to mods collection
-[14Aug2025 00:07:27.311] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.transformers
-[14Aug2025 00:07:27.324] [main/INFO] [optifine.OptiFineTransformer/]: Targets: 412
-[14Aug2025 00:07:28.019] [main/INFO] [optifine.OptiFineTransformationService/]: additionalClassesLocator: [optifine., net.optifine.]
-[14Aug2025 00:07:28.695] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[14Aug2025 00:07:28.851] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [org.tlauncher.MixinConnector]
-[14Aug2025 00:07:28.855] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[14Aug2025 00:07:29.005] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
-[14Aug2025 00:07:30.136] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER
-[14Aug2025 00:07:30.137] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER)
-[14Aug2025 00:07:30.138] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found tlskincape-mixins.json:MixinAbstractPlayer
-[14Aug2025 00:07:30.146] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER
-[14Aug2025 00:07:30.146] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/TitleScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER)
-[14Aug2025 00:07:30.147] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.TitleScreen was not found tlskincape-mixins.json:MixinMainMenu
-[14Aug2025 00:07:30.149] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/model/PlayerModel (java.lang.ClassNotFoundException: net.minecraft.client.model.PlayerModel)
-[14Aug2025 00:07:30.149] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.model.PlayerModel was not found tlskincape-mixins.json:MixinPlayerModel
-[14Aug2025 00:07:30.262] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
-[14Aug2025 00:07:37.906] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
-[14Aug2025 00:07:38.359] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[14Aug2025 00:07:38.359] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[14Aug2025 00:07:39.792] [main/INFO] [Moonlight/]: Initialized block sets in 13ms
-[14Aug2025 00:07:40.469] [modloading-worker-0/INFO] [com.muhammedesadcomert.protectmobsfromdaylight.forge.ProtectMobsFromDayLight/]: HELLO FROM COMMON SETUP
-[14Aug2025 00:07:40.469] [modloading-worker-0/INFO] [com.muhammedesadcomert.protectmobsfromdaylight.forge.ProtectMobsFromDayLight/]: DIRT BLOCK >> minecraft:dirt
-[14Aug2025 00:07:40.518] [modloading-worker-0/INFO] [lostcities/]: Creating standard profiles into 'config/lostcities/profiles'
-[14Aug2025 00:07:40.580] [modloading-worker-0/INFO] [lostcities/]: Reading existing profiles from 'config/lostcities/profiles'
-[14Aug2025 00:07:40.683] [main/INFO] [Moonlight/]: Initialized color sets in 34ms
-[14Aug2025 00:07:40.750] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:shoot_cool_down for minecraft:living_entity
-[14Aug2025 00:07:40.751] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:melee_cool_down for minecraft:living_entity
-[14Aug2025 00:07:40.751] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:reload_state for minecraft:living_entity
-[14Aug2025 00:07:40.751] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:aiming_progress for minecraft:living_entity
-[14Aug2025 00:07:40.751] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:draw_cool_down for minecraft:living_entity
-[14Aug2025 00:07:40.751] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:is_aiming for minecraft:living_entity
-[14Aug2025 00:07:40.751] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:sprint_time for minecraft:living_entity
-[14Aug2025 00:07:40.752] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:is_bolting for minecraft:living_entity
-[14Aug2025 00:07:40.752] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:throwable_using for minecraft:living_entity
-[14Aug2025 00:07:40.766] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
-[14Aug2025 00:07:40.787] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[14Aug2025 00:07:40.787] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
-[14Aug2025 00:07:40.788] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
-[14Aug2025 00:07:40.788] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
-[14Aug2025 00:07:40.788] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
-[14Aug2025 00:07:40.788] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
-[14Aug2025 00:07:40.788] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
-[14Aug2025 00:07:40.801] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[14Aug2025 00:07:40.803] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[14Aug2025 00:07:41.032] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.13.51 Target: null
-[14Aug2025 00:07:41.032] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[14Aug2025 00:07:41.297] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[14Aug2025 00:07:41.297] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [codechickenlib] Starting version check at https://version-check.covers1624.net/check/?mod=CodeChickenLib&mc=1.20.1
-[14Aug2025 00:07:41.840] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [codechickenlib] Found status: OUTDATED Current: 4.4.0.509 Target: 4.4.0.516
-[14Aug2025 00:07:43.466] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[14Aug2025 00:07:45.147] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Los_Falsos_1/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23171!/assets/.mcassetsroot' uses unexpected schema
-[14Aug2025 00:07:45.147] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Los_Falsos_1/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23171!/data/.mcassetsroot' uses unexpected schema
-[14Aug2025 00:07:48.936] [main/INFO] [tacz/GunPackFinder]: Start scanning for gun packs in /workspaces/Los_Falsos_1/servidor_minecraft/tacz
-[14Aug2025 00:07:48.938] [main/INFO] [tacz/GunPackFinder]: - tacz_default_gun, Main namespace: tacz
-[14Aug2025 00:07:48.939] [main/INFO] [tacz/GunPackFinder]: Found 1 possible gunpack(s) and added them to resource set.
-[14Aug2025 00:07:49.061] [main/INFO] [com.ordana.immersive_weathering.ImmersiveWeathering/]: Generated runtime SERVER_DATA for pack Immersive Weathering Generated Pack (immersive_weathering) in: 24 ms
-[14Aug2025 00:07:51.844] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:keerdm_zombie_essentials:chests/apartment_bathroom_vics
+[14Aug2025 00:24:07.174] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[14Aug2025 00:24:07.178] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.16 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[14Aug2025 00:24:07.581] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[14Aug2025 00:24:07.593] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.onLoad
+[14Aug2025 00:24:07.594] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFine ZIP file URL: union:/workspaces/Los_Falsos_1/servidor_minecraft/mods/OptiFine_1.20.1_HD_U_I6.jar%23135!/
+[14Aug2025 00:24:07.602] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFine ZIP file: /workspaces/Los_Falsos_1/servidor_minecraft/mods/OptiFine_1.20.1_HD_U_I6.jar
+[14Aug2025 00:24:07.604] [main/INFO] [optifine.OptiFineTransformer/]: Target.PRE_CLASS is available
+[14Aug2025 00:24:07.647] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Los_Falsos_1/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[14Aug2025 00:24:07.654] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.initialize
+[14Aug2025 00:24:07.898] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Los_Falsos_1/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[14Aug2025 00:24:07.899] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Los_Falsos_1/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[14Aug2025 00:24:07.900] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Los_Falsos_1/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[14Aug2025 00:24:07.902] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Los_Falsos_1/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[14Aug2025 00:24:08.242] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 7 dependencies adding them to mods collection
+[14Aug2025 00:24:08.864] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.transformers
+[14Aug2025 00:24:08.877] [main/INFO] [optifine.OptiFineTransformer/]: Targets: 412
+[14Aug2025 00:24:09.604] [main/INFO] [optifine.OptiFineTransformationService/]: additionalClassesLocator: [optifine., net.optifine.]
+[14Aug2025 00:24:10.299] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[14Aug2025 00:24:10.431] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [org.tlauncher.MixinConnector]
+[14Aug2025 00:24:10.434] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[14Aug2025 00:24:10.566] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
+[14Aug2025 00:24:11.576] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER
+[14Aug2025 00:24:11.577] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER)
+[14Aug2025 00:24:11.578] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found tlskincape-mixins.json:MixinAbstractPlayer
+[14Aug2025 00:24:11.581] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER
+[14Aug2025 00:24:11.582] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/TitleScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER)
+[14Aug2025 00:24:11.582] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.TitleScreen was not found tlskincape-mixins.json:MixinMainMenu
+[14Aug2025 00:24:11.583] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/model/PlayerModel (java.lang.ClassNotFoundException: net.minecraft.client.model.PlayerModel)
+[14Aug2025 00:24:11.584] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.model.PlayerModel was not found tlskincape-mixins.json:MixinPlayerModel
+[14Aug2025 00:24:11.679] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
+[14Aug2025 00:24:18.592] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
+[14Aug2025 00:24:18.874] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[14Aug2025 00:24:18.875] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[14Aug2025 00:24:20.611] [main/INFO] [Moonlight/]: Initialized block sets in 13ms
+[14Aug2025 00:24:21.220] [modloading-worker-0/INFO] [com.muhammedesadcomert.protectmobsfromdaylight.forge.ProtectMobsFromDayLight/]: HELLO FROM COMMON SETUP
+[14Aug2025 00:24:21.220] [modloading-worker-0/INFO] [com.muhammedesadcomert.protectmobsfromdaylight.forge.ProtectMobsFromDayLight/]: DIRT BLOCK >> minecraft:dirt
+[14Aug2025 00:24:21.273] [modloading-worker-0/INFO] [lostcities/]: Creating standard profiles into 'config/lostcities/profiles'
+[14Aug2025 00:24:21.345] [modloading-worker-0/INFO] [lostcities/]: Reading existing profiles from 'config/lostcities/profiles'
+[14Aug2025 00:24:21.459] [main/INFO] [Moonlight/]: Initialized color sets in 32ms
+[14Aug2025 00:24:21.526] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:shoot_cool_down for minecraft:living_entity
+[14Aug2025 00:24:21.526] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:melee_cool_down for minecraft:living_entity
+[14Aug2025 00:24:21.527] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:reload_state for minecraft:living_entity
+[14Aug2025 00:24:21.527] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:aiming_progress for minecraft:living_entity
+[14Aug2025 00:24:21.527] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:draw_cool_down for minecraft:living_entity
+[14Aug2025 00:24:21.527] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:is_aiming for minecraft:living_entity
+[14Aug2025 00:24:21.527] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:sprint_time for minecraft:living_entity
+[14Aug2025 00:24:21.527] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:is_bolting for minecraft:living_entity
+[14Aug2025 00:24:21.527] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:throwable_using for minecraft:living_entity
+[14Aug2025 00:24:21.559] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[14Aug2025 00:24:21.559] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[14Aug2025 00:24:21.559] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[14Aug2025 00:24:21.560] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[14Aug2025 00:24:21.560] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[14Aug2025 00:24:21.560] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[14Aug2025 00:24:21.560] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[14Aug2025 00:24:21.583] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[14Aug2025 00:24:21.589] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[14Aug2025 00:24:21.594] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
+[14Aug2025 00:24:21.985] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.13.51 Target: null
+[14Aug2025 00:24:21.986] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[14Aug2025 00:24:22.223] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[14Aug2025 00:24:22.223] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [codechickenlib] Starting version check at https://version-check.covers1624.net/check/?mod=CodeChickenLib&mc=1.20.1
+[14Aug2025 00:24:22.751] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [codechickenlib] Found status: OUTDATED Current: 4.4.0.509 Target: 4.4.0.516
+[14Aug2025 00:24:24.446] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[14Aug2025 00:24:24.561] [main/WARN] [net.minecraftforge.common.ForgeHooks/WP]: The following mods have version differences that were not resolved:
+forge (version 47.4.0 -> 47.3.7)
+sona (version 1.2.0 -> MISSING)
+tacz (version 1.1.6-hotfix -> 1.1.6)
+zombiekit (version 2.1.3 -> MISSING)
+Things may not work well.
+[14Aug2025 00:24:24.639] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:block
+	zombiekit:barbed_wire: 1814
+	zombiekit:barbed_wire_broken: 1815
+	zombiekit:barbed_wire_extremly_broken: 1816
+	zombiekit:charger: 1819
+	zombiekit:chemical_landmine: 1818
+	zombiekit:flares_light: 1824
+	zombiekit:gas_tank: 1823
+	zombiekit:injector: 1821
+	zombiekit:landmine: 1817
+	zombiekit:mortar_rack: 1828
+	zombiekit:saltpeter_cauldron: 1825
+	zombiekit:shortwave_radio: 1822
+	zombiekit:spread_light: 1826
+	zombiekit:trap_cover: 1813
+	zombiekit:ultra_wideband_radar: 1820
+	zombiekit:vacuum_packaging_machine: 1827
+
+[14Aug2025 00:24:24.641] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:entity_type
+	sona:sound_decoy: 194
+	zombiekit:bile_jar: 197
+	zombiekit:drone: 204
+	zombiekit:firecracker: 198
+	zombiekit:flare_gun: 202
+	zombiekit:flares: 203
+	zombiekit:heavy_machine_gun: 206
+	zombiekit:heavy_machine_gun_ammo: 205
+	zombiekit:landmine: 201
+	zombiekit:molotov_cocktail: 195
+	zombiekit:mortar: 208
+	zombiekit:mortar_shell: 200
+	zombiekit:potion_jar: 196
+	zombiekit:uv_lamp: 207
+	zombiekit:wrench: 199
+
+[14Aug2025 00:24:24.645] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:item
+	zombiekit:advanced_burning_battle_parts: 2628
+	zombiekit:advanced_burning_charging_parts: 2622
+	zombiekit:advanced_extend_weighted_grip: 2619
+	zombiekit:advanced_freezing_battle_parts: 2631
+	zombiekit:advanced_freezing_charging_parts: 2625
+	zombiekit:advanced_heavy_weighted_grip: 2616
+	zombiekit:advanced_light_weighted_grip: 2613
+	zombiekit:alcohol: 2689
+	zombiekit:aokinao: 2711
+	zombiekit:bandage: 2632
+	zombiekit:barbed_wire: 2652
+	zombiekit:barbed_wire_broken: 2653
+	zombiekit:barbed_wire_extremly_broken: 2654
+	zombiekit:baseball_bat: 2583
+	zombiekit:battery: 2647
+	zombiekit:bile_jar: 2609
+	zombiekit:blueprint_of_drone: 2702
+	zombiekit:blueprint_of_dye: 2699
+	zombiekit:blueprint_of_heavy_machine_gun: 2703
+	zombiekit:blueprint_of_landmine: 2701
+	zombiekit:blueprint_of_mortar: 2704
+	zombiekit:blueprint_of_riot: 2700
+	zombiekit:blueprint_of_steel: 2698
+	zombiekit:bomb_boots: 2578
+	zombiekit:bomb_chestplate: 2576
+	zombiekit:bomb_helmet: 2575
+	zombiekit:bomb_leggings: 2577
+	zombiekit:bulletproof_insert: 2680
+	zombiekit:camphor: 2682
+	zombiekit:canned_beans: 2644
+	zombiekit:canned_beef_hotpot: 2640
+	zombiekit:canned_bread: 2643
+	zombiekit:canned_fish_in_black_bean_sauce: 2642
+	zombiekit:canned_luncheon_meat: 2641
+	zombiekit:canned_tomatoes: 2645
+	zombiekit:canned_yellow_peach: 2639
+	zombiekit:chainsaw: 2598
+	zombiekit:charger: 2657
+	zombiekit:chemical_landmine: 2656
+	zombiekit:chocolate: 2638
+	zombiekit:cloth: 2677
+	zombiekit:compressed_biscuit: 2637
+	zombiekit:crowbar: 2586
+	zombiekit:crude_nitrate: 2685
+	zombiekit:death_bat: 2683
+	zombiekit:desert_camouflage_dye: 2671
+	zombiekit:desert_riot_boots: 2558
+	zombiekit:desert_riot_chestplate: 2556
+	zombiekit:desert_riot_helmet: 2555
+	zombiekit:desert_riot_leggings: 2557
+	zombiekit:desert_tactical_boots: 2554
+	zombiekit:desert_tactical_chestplate: 2552
+	zombiekit:desert_tactical_helmet: 2551
+	zombiekit:desert_tactical_leggings: 2553
+	zombiekit:drone_components: 2695
+	zombiekit:drone_summon: 2669
+	zombiekit:energy_rod: 2650
+	zombiekit:exo_boots: 2582
+	zombiekit:exo_chestplate: 2580
+	zombiekit:exo_helmet: 2579
+	zombiekit:exo_leggings: 2581
+	zombiekit:fibre: 2676
+	zombiekit:fire_axe: 2588
+	zombiekit:fire_mortar_shell: 2605
+	zombiekit:firecracker: 2610
+	zombiekit:flame: 2710
+	zombiekit:flamethrower: 2599
+	zombiekit:flare_gun: 2646
+	zombiekit:forest_camouflage_dye: 2672
+	zombiekit:forest_riot_boots: 2566
+	zombiekit:forest_riot_chestplate: 2564
+	zombiekit:forest_riot_helmet: 2563
+	zombiekit:forest_riot_leggings: 2565
+	zombiekit:forest_tactical_boots: 2562
+	zombiekit:forest_tactical_chestplate: 2560
+	zombiekit:forest_tactical_helmet: 2559
+	zombiekit:forest_tactical_leggings: 2561
+	zombiekit:fuel_canister: 2600
+	zombiekit:gas_tank: 2670
+	zombiekit:heavy_machine_gun_ammo: 2666
+	zombiekit:heavy_machine_gun_summon: 2667
+	zombiekit:high_temperature_fuel_canister: 2602
+	zombiekit:hydrogen_nitrate: 2686
+	zombiekit:improved_burning_battle_parts: 2627
+	zombiekit:improved_burning_charging_parts: 2621
+	zombiekit:improved_extend_weighted_grip: 2618
+	zombiekit:improved_freezing_battle_parts: 2630
+	zombiekit:improved_freezing_charging_parts: 2624
+	zombiekit:improved_heavy_weighted_grip: 2615
+	zombiekit:improved_light_weighted_grip: 2612
+	zombiekit:injector: 2660
+	zombiekit:iron_curtain: 2709
+	zombiekit:iron_wire: 2690
+	zombiekit:karazhan: 2708
+	zombiekit:knife: 2590
+	zombiekit:konn_gara: 2714
+	zombiekit:kyoko: 2706
+	zombiekit:landmine: 2655
+	zombiekit:latex: 2674
+	zombiekit:lhx_qing: 2712
+	zombiekit:machete: 2593
+	zombiekit:machine_gun_components: 2696
+	zombiekit:medical_kit: 2634
+	zombiekit:mine_layer_mortar_shell: 2604
+	zombiekit:miracle: 2636
+	zombiekit:molotov_cocktail: 2607
+	zombiekit:mortar_components: 2697
+	zombiekit:mortar_rack: 2665
+	zombiekit:mortar_shell: 2603
+	zombiekit:mortar_summon: 2668
+	zombiekit:napalm_fuel_canister: 2601
+	zombiekit:netherite_baseball_bat: 2585
+	zombiekit:netherite_crowbar: 2587
+	zombiekit:netherite_fire_axe: 2589
+	zombiekit:netherite_knife: 2591
+	zombiekit:netherite_machete: 2594
+	zombiekit:netherite_rake: 2596
+	zombiekit:nitrocellulose: 2687
+	zombiekit:painkiller: 2633
+	zombiekit:plastic_bag: 2649
+	zombiekit:plastics: 2688
+	zombiekit:pocket_radio: 2662
+	zombiekit:potion_jar: 2608
+	zombiekit:primary_burning_battle_parts: 2626
+	zombiekit:primary_burning_charging_parts: 2620
+	zombiekit:primary_extend_weighted_grip: 2617
+	zombiekit:primary_freezing_battle_parts: 2629
+	zombiekit:primary_freezing_charging_parts: 2623
+	zombiekit:primary_heavy_weighted_grip: 2614
+	zombiekit:primary_light_weighted_grip: 2611
+	zombiekit:quartz_sand: 2678
+	zombiekit:rake: 2595
+	zombiekit:rubber: 2675
+	zombiekit:saltpeter: 2684
+	zombiekit:saltpeter_bucket: 2693
+	zombiekit:saltpeter_soil: 2694
+	zombiekit:sandpaper: 2648
+	zombiekit:scarasol: 2705
+	zombiekit:shooting_parameters_table: 2661
+	zombiekit:shortwave_radio: 2663
+	zombiekit:skiing_boots: 2542
+	zombiekit:skiing_chestplate: 2540
+	zombiekit:skiing_helmet: 2539
+	zombiekit:skiing_leggings: 2541
+	zombiekit:smoke_mortar_shell: 2606
+	zombiekit:smokeless_gunpowder: 2691
+	zombiekit:snow_camouflage_dye: 2673
+	zombiekit:snow_riot_boots: 2574
+	zombiekit:snow_riot_chestplate: 2572
+	zombiekit:snow_riot_helmet: 2571
+	zombiekit:snow_riot_leggings: 2573
+	zombiekit:snow_tactical_boots: 2570
+	zombiekit:snow_tactical_chestplate: 2568
+	zombiekit:snow_tactical_helmet: 2567
+	zombiekit:snow_tactical_leggings: 2569
+	zombiekit:sona_bakemono: 2713
+	zombiekit:special_ceramics: 2679
+	zombiekit:special_steel_sheet: 2681
+	zombiekit:standard_riot_boots: 2550
+	zombiekit:standard_riot_chestplate: 2548
+	zombiekit:standard_riot_helmet: 2547
+	zombiekit:standard_riot_leggings: 2549
+	zombiekit:standard_tactical_boots: 2546
+	zombiekit:standard_tactical_chestplate: 2544
+	zombiekit:standard_tactical_helmet: 2543
+	zombiekit:standard_tactical_leggings: 2545
+	zombiekit:studded_baseball_bat: 2584
+	zombiekit:sulfur: 2692
+	zombiekit:suspicious_drug: 2635
+	zombiekit:trap_cover: 2651
+	zombiekit:triangular_thorn: 2592
+	zombiekit:ultra_wideband_radar: 2658
+	zombiekit:uv_lamp: 2659
+	zombiekit:vacuum_packaging_machine: 2664
+	zombiekit:white_food_chestplate: 2707
+	zombiekit:wrench: 2597
+
+[14Aug2025 00:24:24.654] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:mob_effect
+	sona:analgesic: 62
+	sona:camouflage: 63
+	sona:confusion: 64
+	sona:corrosion: 65
+	sona:exposure: 66
+	sona:fragility: 67
+	sona:frost: 68
+	sona:ignition: 69
+	sona:immunity: 70
+	sona:infection: 71
+	sona:insane: 72
+	sona:sliminess: 73
+	sona:stun: 74
+
+[14Aug2025 00:24:24.655] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:sound_event
+	sona:crate: 1660
+	sona:slider_zipper_bag: 1661
+	sona:tinnitus: 1659
+	zombiekit:acid_spray: 1662
+	zombiekit:chainsaw_attack: 1678
+	zombiekit:chainsaw_idle: 1676
+	zombiekit:chainsaw_start_failed: 1677
+	zombiekit:drone_crush: 1671
+	zombiekit:drone_idle: 1669
+	zombiekit:drone_switch: 1670
+	zombiekit:exo_fly: 1679
+	zombiekit:flamethrower: 1684
+	zombiekit:flamethrower_reload: 1685
+	zombiekit:flamethrower_reload_empty: 1686
+	zombiekit:flare_gun_fire: 1667
+	zombiekit:heavy_machine_gun_deploy: 1675
+	zombiekit:heavy_machine_gun_fire: 1672
+	zombiekit:heavy_machine_gun_overload: 1673
+	zombiekit:heavy_machine_gun_trigger: 1674
+	zombiekit:konn_gara: 1668
+	zombiekit:mode_switch: 1682
+	zombiekit:mortar_launch: 1687
+	zombiekit:radar_activated: 1683
+	zombiekit:radio_response: 1665
+	zombiekit:radio_static: 1664
+	zombiekit:radio_static_long: 1666
+	zombiekit:reactive_armor_ready: 1680
+	zombiekit:reactive_armor_release: 1681
+	zombiekit:turn_on: 1663
+
+[14Aug2025 00:24:24.662] [main/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Forge Mod Loader detected missing registry entries.
+
+There are 249 missing entries in this save.
+If you continue the missing entries will get removed.
+A world backup will be automatically created in your saves directory.
+
+
+[14Aug2025 00:24:24.663] [main/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Missing minecraft:sound_event:
+    sona:crate
+    sona:slider_zipper_bag
+    sona:tinnitus
+    zombiekit:acid_spray
+    zombiekit:chainsaw_attack
+    zombiekit:chainsaw_idle
+    zombiekit:chainsaw_start_failed
+    zombiekit:drone_crush
+    zombiekit:drone_idle
+    zombiekit:drone_switch
+    zombiekit:exo_fly
+    zombiekit:flamethrower
+    zombiekit:flamethrower_reload
+    zombiekit:flamethrower_reload_empty
+    zombiekit:flare_gun_fire
+    zombiekit:heavy_machine_gun_deploy
+    zombiekit:heavy_machine_gun_fire
+    zombiekit:heavy_machine_gun_overload
+    zombiekit:heavy_machine_gun_trigger
+    zombiekit:konn_gara
+    zombiekit:mode_switch
+    zombiekit:mortar_launch
+    zombiekit:radar_activated
+    zombiekit:radio_response
+    zombiekit:radio_static
+    zombiekit:radio_static_long
+    zombiekit:reactive_armor_ready
+    zombiekit:reactive_armor_release
+    zombiekit:turn_on
+
+Missing minecraft:item:
+    zombiekit:advanced_burning_battle_parts
+    zombiekit:advanced_burning_charging_parts
+    zombiekit:advanced_extend_weighted_grip
+    zombiekit:advanced_freezing_battle_parts
+    zombiekit:advanced_freezing_charging_parts
+    zombiekit:advanced_heavy_weighted_grip
+    zombiekit:advanced_light_weighted_grip
+    zombiekit:alcohol
+    zombiekit:aokinao
+    zombiekit:bandage
+    zombiekit:barbed_wire
+    zombiekit:barbed_wire_broken
+    zombiekit:barbed_wire_extremly_broken
+    zombiekit:baseball_bat
+    zombiekit:battery
+    zombiekit:bile_jar
+    zombiekit:blueprint_of_drone
+    zombiekit:blueprint_of_dye
+    zombiekit:blueprint_of_heavy_machine_gun
+    zombiekit:blueprint_of_landmine
+    zombiekit:blueprint_of_mortar
+    zombiekit:blueprint_of_riot
+    zombiekit:blueprint_of_steel
+    zombiekit:bomb_boots
+    zombiekit:bomb_chestplate
+    zombiekit:bomb_helmet
+    zombiekit:bomb_leggings
+    zombiekit:bulletproof_insert
+    zombiekit:camphor
+    zombiekit:canned_beans
+    zombiekit:canned_beef_hotpot
+    zombiekit:canned_bread
+    zombiekit:canned_fish_in_black_bean_sauce
+    zombiekit:canned_luncheon_meat
+    zombiekit:canned_tomatoes
+    zombiekit:canned_yellow_peach
+    zombiekit:chainsaw
+    zombiekit:charger
+    zombiekit:chemical_landmine
+    zombiekit:chocolate
+    zombiekit:cloth
+    zombiekit:compressed_biscuit
+    zombiekit:crowbar
+    zombiekit:crude_nitrate
+    zombiekit:death_bat
+    zombiekit:desert_camouflage_dye
+    zombiekit:desert_riot_boots
+    zombiekit:desert_riot_chestplate
+    zombiekit:desert_riot_helmet
+    zombiekit:desert_riot_leggings
+    zombiekit:desert_tactical_boots
+    zombiekit:desert_tactical_chestplate
+    zombiekit:desert_tactical_helmet
+    zombiekit:desert_tactical_leggings
+    zombiekit:drone_components
+    zombiekit:drone_summon
+    zombiekit:energy_rod
+    zombiekit:exo_boots
+    zombiekit:exo_chestplate
+    zombiekit:exo_helmet
+    zombiekit:exo_leggings
+    zombiekit:fibre
+    zombiekit:fire_axe
+    zombiekit:fire_mortar_shell
+    zombiekit:firecracker
+    zombiekit:flame
+    zombiekit:flamethrower
+    zombiekit:flare_gun
+    zombiekit:forest_camouflage_dye
+    zombiekit:forest_riot_boots
+    zombiekit:forest_riot_chestplate
+    zombiekit:forest_riot_helmet
+    zombiekit:forest_riot_leggings
+    zombiekit:forest_tactical_boots
+    zombiekit:forest_tactical_chestplate
+    zombiekit:forest_tactical_helmet
+    zombiekit:forest_tactical_leggings
+    zombiekit:fuel_canister
+    zombiekit:gas_tank
+    zombiekit:heavy_machine_gun_ammo
+    zombiekit:heavy_machine_gun_summon
+    zombiekit:high_temperature_fuel_canister
+    zombiekit:hydrogen_nitrate
+    zombiekit:improved_burning_battle_parts
+    zombiekit:improved_burning_charging_parts
+    zombiekit:improved_extend_weighted_grip
+    zombiekit:improved_freezing_battle_parts
+    zombiekit:improved_freezing_charging_parts
+    zombiekit:improved_heavy_weighted_grip
+    zombiekit:improved_light_weighted_grip
+    zombiekit:injector
+    zombiekit:iron_curtain
+    zombiekit:iron_wire
+    zombiekit:karazhan
+    zombiekit:knife
+    zombiekit:konn_gara
+    zombiekit:kyoko
+    zombiekit:landmine
+    zombiekit:latex
+    zombiekit:lhx_qing
+    zombiekit:machete
+    zombiekit:machine_gun_components
+    zombiekit:medical_kit
+    zombiekit:mine_layer_mortar_shell
+    zombiekit:miracle
+    zombiekit:molotov_cocktail
+    zombiekit:mortar_components
+    zombiekit:mortar_rack
+    zombiekit:mortar_shell
+    zombiekit:mortar_summon
+    zombiekit:napalm_fuel_canister
+    zombiekit:netherite_baseball_bat
+    zombiekit:netherite_crowbar
+    zombiekit:netherite_fire_axe
+    zombiekit:netherite_knife
+    zombiekit:netherite_machete
+    zombiekit:netherite_rake
+    zombiekit:nitrocellulose
+    zombiekit:painkiller
+    zombiekit:plastic_bag
+    zombiekit:plastics
+    zombiekit:pocket_radio
+    zombiekit:potion_jar
+    zombiekit:primary_burning_battle_parts
+    zombiekit:primary_burning_charging_parts
+    zombiekit:primary_extend_weighted_grip
+    zombiekit:primary_freezing_battle_parts
+    zombiekit:primary_freezing_charging_parts
+    zombiekit:primary_heavy_weighted_grip
+    zombiekit:primary_light_weighted_grip
+    zombiekit:quartz_sand
+    zombiekit:rake
+    zombiekit:rubber
+    zombiekit:saltpeter
+    zombiekit:saltpeter_bucket
+    zombiekit:saltpeter_soil
+    zombiekit:sandpaper
+    zombiekit:scarasol
+    zombiekit:shooting_parameters_table
+    zombiekit:shortwave_radio
+    zombiekit:skiing_boots
+    zombiekit:skiing_chestplate
+    zombiekit:skiing_helmet
+    zombiekit:skiing_leggings
+    zombiekit:smoke_mortar_shell
+    zombiekit:smokeless_gunpowder
+    zombiekit:snow_camouflage_dye
+    zombiekit:snow_riot_boots
+    zombiekit:snow_riot_chestplate
+    zombiekit:snow_riot_helmet
+    zombiekit:snow_riot_leggings
+    zombiekit:snow_tactical_boots
+    zombiekit:snow_tactical_chestplate
+    zombiekit:snow_tactical_helmet
+    zombiekit:snow_tactical_leggings
+    zombiekit:sona_bakemono
+    zombiekit:special_ceramics
+    zombiekit:special_steel_sheet
+    zombiekit:standard_riot_boots
+    zombiekit:standard_riot_chestplate
+    zombiekit:standard_riot_helmet
+    zombiekit:standard_riot_leggings
+    zombiekit:standard_tactical_boots
+    zombiekit:standard_tactical_chestplate
+    zombiekit:standard_tactical_helmet
+    zombiekit:standard_tactical_leggings
+    zombiekit:studded_baseball_bat
+    zombiekit:sulfur
+    zombiekit:suspicious_drug
+    zombiekit:trap_cover
+    zombiekit:triangular_thorn
+    zombiekit:ultra_wideband_radar
+    zombiekit:uv_lamp
+    zombiekit:vacuum_packaging_machine
+    zombiekit:white_food_chestplate
+    zombiekit:wrench
+
+Missing minecraft:block:
+    zombiekit:barbed_wire
+    zombiekit:barbed_wire_broken
+    zombiekit:barbed_wire_extremly_broken
+    zombiekit:charger
+    zombiekit:chemical_landmine
+    zombiekit:flares_light
+    zombiekit:gas_tank
+    zombiekit:injector
+    zombiekit:landmine
+    zombiekit:mortar_rack
+    zombiekit:saltpeter_cauldron
+    zombiekit:shortwave_radio
+    zombiekit:spread_light
+    zombiekit:trap_cover
+    zombiekit:ultra_wideband_radar
+    zombiekit:vacuum_packaging_machine
+
+Missing minecraft:mob_effect:
+    sona:analgesic
+    sona:camouflage
+    sona:confusion
+    sona:corrosion
+    sona:exposure
+    sona:fragility
+    sona:frost
+    sona:ignition
+    sona:immunity
+    sona:infection
+    sona:insane
+    sona:sliminess
+    sona:stun
+
+Missing minecraft:entity_type:
+    sona:sound_decoy
+    zombiekit:bile_jar
+    zombiekit:drone
+    zombiekit:firecracker
+    zombiekit:flare_gun
+    zombiekit:flares
+    zombiekit:heavy_machine_gun
+    zombiekit:heavy_machine_gun_ammo
+    zombiekit:landmine
+    zombiekit:molotov_cocktail
+    zombiekit:mortar
+    zombiekit:mortar_shell
+    zombiekit:potion_jar
+    zombiekit:uv_lamp
+    zombiekit:wrench
+
+
+[14Aug2025 00:24:24.667] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: There are unidentified mappings in this world - we are going to attempt to process anyway
+[14Aug2025 00:24:26.336] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Los_Falsos_1/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23171!/assets/.mcassetsroot' uses unexpected schema
+[14Aug2025 00:24:26.337] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Los_Falsos_1/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23171!/data/.mcassetsroot' uses unexpected schema
+[14Aug2025 00:24:29.804] [main/INFO] [tacz/GunPackFinder]: Start scanning for gun packs in /workspaces/Los_Falsos_1/servidor_minecraft/tacz
+[14Aug2025 00:24:29.806] [main/INFO] [tacz/GunPackFinder]: - tacz_default_gun, Main namespace: tacz
+[14Aug2025 00:24:29.806] [main/INFO] [tacz/GunPackFinder]: Found 1 possible gunpack(s) and added them to resource set.
+[14Aug2025 00:24:29.892] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:sona
+[14Aug2025 00:24:29.892] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:zombiekit
+[14Aug2025 00:24:29.933] [main/INFO] [com.ordana.immersive_weathering.ImmersiveWeathering/]: Generated runtime SERVER_DATA for pack Immersive Weathering Generated Pack (immersive_weathering) in: 16 ms
+[14Aug2025 00:24:32.454] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:keerdm_zombie_essentials:chests/apartment_bathroom_vics
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'pointblank:glock17'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23171!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -120,7 +655,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[14Aug2025 00:07:51.964] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:keerdm_zombie_essentials:chests/vics_point_blank_gunchest
+[14Aug2025 00:24:32.536] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:keerdm_zombie_essentials:chests/vics_point_blank_gunchest
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'pointblank:glock17'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23171!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -172,7 +707,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[14Aug2025 00:07:51.980] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:keerdm_zombie_essentials:chests/abandoned_car_emergency_vics
+[14Aug2025 00:24:32.549] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:keerdm_zombie_essentials:chests/abandoned_car_emergency_vics
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'pointblank:glock17'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23171!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -224,7 +759,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[14Aug2025 00:07:52.072] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:keerdm_zombie_essentials:chests/abandoned_car_advanced_vics
+[14Aug2025 00:24:32.625] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:keerdm_zombie_essentials:chests/abandoned_car_advanced_vics
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'pointblank:m4a1'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23171!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -276,7 +811,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[14Aug2025 00:07:52.109] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:keerdm_zombie_essentials:chests/abandoned_car_basic_vics
+[14Aug2025 00:24:32.649] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:keerdm_zombie_essentials:chests/abandoned_car_basic_vics
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'pointblank:mp7'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23171!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -328,7 +863,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[14Aug2025 00:07:52.125] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:keerdm_zombie_essentials:chests/vics_point_blank_ammochest
+[14Aug2025 00:24:32.661] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:keerdm_zombie_essentials:chests/vics_point_blank_ammochest
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'pointblank:ammo9mm'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23171!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -380,42 +915,63 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[14Aug2025 00:07:52.259] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 8 recipes
-[14Aug2025 00:07:52.378] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement zombiesmore:kaboom: Task Advancement{parentId=zombiesmore:kaboom, display=net.minecraft.advancements.DisplayInfo@5d5841e0, rewards=AdvancementRewards{experience=5, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@acec2b4}, criteria={kaboom_0=net.minecraft.advancements.Criterion@304df5cc}, requirements=[[kaboom_0]], sends_telemetry_event=false}
-[14Aug2025 00:07:52.378] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1739 advancements
-[14Aug2025 00:07:52.500] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio slots
-[14Aug2025 00:07:52.504] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
-[14Aug2025 00:07:54.338] [main/INFO] [com.ordana.immersive_weathering.ImmersiveWeathering/]: Loaded 78 block growths configurations
-[14Aug2025 00:07:54.345] [main/INFO] [com.ordana.immersive_weathering.ImmersiveWeathering/]: Loaded 14 liquid generators configurations
-[14Aug2025 00:07:54.608] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[14Aug2025 00:07:54.609] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[14Aug2025 00:07:54.609] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[14Aug2025 00:07:54.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[14Aug2025 00:07:54.756] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[14Aug2025 00:07:54.775] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[14Aug2025 00:07:54.856] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[14Aug2025 00:07:54.857] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[14Aug2025 00:07:54.857] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[14Aug2025 00:07:54.857] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[14Aug2025 00:07:55.591] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[14Aug2025 00:07:55.592] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[14Aug2025 00:07:55.592] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[14Aug2025 00:08:04.587] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[14Aug2025 00:08:08.703] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Aug2025 00:08:08.704] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Aug2025 00:08:08.704] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Aug2025 00:08:08.705] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Aug2025 00:08:08.707] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Aug2025 00:08:08.708] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Aug2025 00:08:08.709] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Aug2025 00:08:08.710] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Aug2025 00:08:08.714] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Aug2025 00:08:09.088] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
-[14Aug2025 00:08:09.588] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 74%
-[14Aug2025 00:08:09.789] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 5202 ms
-[14Aug2025 00:08:09.790] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (14.921s)! For help, type "help"
-[14Aug2025 00:08:09.814] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[14Aug2025 00:08:09.814] [Server thread/INFO] [com.muhammedesadcomert.protectmobsfromdaylight.forge.ProtectMobsFromDayLight/]: HELLO from server starting
-[14Aug2025 00:08:09.816] [Server thread/INFO] [net.stardustlabs.terralith.Terralith/]: Thanks for choosing Terralith!
-[14Aug2025 00:16:50.357] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Chraslan1802[/127.16.14.152:48695] logged in with entity id 130 at (-32.5, 63.0, 10.5)
-[14Aug2025 00:16:50.399] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chraslan1802 joined the game
+[14Aug2025 00:24:32.799] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 8 recipes
+[14Aug2025 00:24:32.920] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement zombiesmore:kaboom: Task Advancement{parentId=zombiesmore:kaboom, display=net.minecraft.advancements.DisplayInfo@3b204af6, rewards=AdvancementRewards{experience=5, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@17002e83}, criteria={kaboom_0=net.minecraft.advancements.Criterion@1ada46df}, requirements=[[kaboom_0]], sends_telemetry_event=false}
+[14Aug2025 00:24:32.921] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1739 advancements
+[14Aug2025 00:24:33.066] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio slots
+[14Aug2025 00:24:33.070] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[14Aug2025 00:24:34.588] [main/INFO] [com.ordana.immersive_weathering.ImmersiveWeathering/]: Loaded 78 block growths configurations
+[14Aug2025 00:24:34.595] [main/INFO] [com.ordana.immersive_weathering.ImmersiveWeathering/]: Loaded 14 liquid generators configurations
+[14Aug2025 00:24:34.822] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[14Aug2025 00:24:34.822] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[14Aug2025 00:24:34.822] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[14Aug2025 00:24:34.822] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[14Aug2025 00:24:34.975] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[14Aug2025 00:24:34.999] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[14Aug2025 00:24:35.083] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14Aug2025 00:24:35.083] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[14Aug2025 00:24:35.084] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14Aug2025 00:24:35.084] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[14Aug2025 00:24:35.116] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/forge-server.toml is not correct. Correcting
+[14Aug2025 00:24:35.118] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.useItemWithDurationZero was corrected from false to its default, null. 
+[14Aug2025 00:24:35.853] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[14Aug2025 00:24:35.854] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[14Aug2025 00:24:35.854] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[14Aug2025 00:24:44.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[14Aug2025 00:24:48.240] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Aug2025 00:24:48.323] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Aug2025 00:24:48.372] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Aug2025 00:24:48.402] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Aug2025 00:24:48.421] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Aug2025 00:24:48.448] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Aug2025 00:24:48.454] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Aug2025 00:24:48.464] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Aug2025 00:24:48.718] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Aug2025 00:24:49.296] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Aug2025 00:24:49.656] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Aug2025 00:24:50.155] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 12%
+[14Aug2025 00:24:50.654] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 77%
+[14Aug2025 00:24:50.824] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 6171 ms
+[14Aug2025 00:24:50.825] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (15.728s)! For help, type "help"
+[14Aug2025 00:24:50.853] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[14Aug2025 00:24:50.853] [Server thread/INFO] [com.muhammedesadcomert.protectmobsfromdaylight.forge.ProtectMobsFromDayLight/]: HELLO from server starting
+[14Aug2025 00:24:50.855] [Server thread/INFO] [net.stardustlabs.terralith.Terralith/]: Thanks for choosing Terralith!
+[14Aug2025 00:25:35.450] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Chraslan1802[/127.16.14.152:50861] logged in with entity id 269 at (-25.5, 68.0, -40.5)
+[14Aug2025 00:25:35.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chraslan1802 joined the game
+[14Aug2025 00:25:59.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made Chraslan1802 a server operator
+[14Aug2025 00:26:15.968] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chraslan1802: Set own game mode to Creative Mode]
+[14Aug2025 00:27:46.667] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Chraslan1802 lost connection: Disconnected
+[14Aug2025 00:27:46.668] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chraslan1802 left the game
+[14Aug2025 00:27:59.862] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[14Aug2025 00:27:59.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[14Aug2025 00:27:59.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[14Aug2025 00:27:59.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[14Aug2025 00:28:00.107] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[14Aug2025 00:28:00.734] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/lostcities:lostcity
+[14Aug2025 00:28:00.735] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[14Aug2025 00:28:00.735] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[14Aug2025 00:28:00.829] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14Aug2025 00:28:00.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (lostcity): All chunks are saved
+[14Aug2025 00:28:00.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14Aug2025 00:28:00.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14Aug2025 00:28:00.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
