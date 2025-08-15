@@ -433,3 +433,8 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [15Aug2025 00:33:49.754] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chraslan1802 joined the game
 [15Aug2025 00:41:30.779] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Chraslan1802 lost connection: Disconnected
 [15Aug2025 00:41:30.780] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chraslan1802 left the game
+[15Aug2025 00:50:41.631] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Chraslan1802[/127.16.14.152:37265] logged in with entity id 3096 at (-6.319580033282727, 75.0, -38.478594811239525)
+[15Aug2025 00:50:41.646] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chraslan1802 joined the game
+[15Aug2025 00:51:21.285] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: pirelianoyt[/127.189.58.175:35987] logged in with entity id 3270 at (-11.5, 75.0, -52.5)
+[15Aug2025 00:51:21.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pirelianoyt joined the game
+[15Aug2025 00:51:45.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chraslan1802 has made the advancement [Monster Hunter]
